@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "f55bf4b7-8ba3-43b0-9d1b-92b9d241cf19",
+		"name": "BE-06-22-S6-L1-Es1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25814352"
+	},
+	"item": [
+		{
+			"name": "ES1-Ansa",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.ansa.it",
+					"protocol": "https",
+					"host": [
+						"www",
+						"ansa",
+						"it"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,237 @@
+{
+	"info": {
+		"_postman_id": "e67e1235-67ae-4f2d-84d2-bde9943fe10a",
+		"name": "BE-06-22-S6-L1-Es2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25814352"
+	},
+	"item": [
+		{
+			"name": "ES2-ReqRes [GET] CRUD",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://reqres.in/api/users?page=2",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ES2-ReqRes [POST] CRUD",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "mariorossi@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "first_name",
+							"value": "Mario",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "Bluth",
+							"type": "text"
+						},
+						{
+							"key": "avatar",
+							"value": "https://picsum.photos/seed/picsum/200/300",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://reqres.in/api/users",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ES2-ReqRes [PUT] CRUD",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "mariorossi@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "first_name",
+							"value": "Mario",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "Bluth",
+							"type": "text"
+						},
+						{
+							"key": "avatar",
+							"value": "https://picsum.photos/seed/picsum/200/300",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://reqres.in/api/users/1?id=1&email=LuigiVerdi@gmail.com&first_name=Luigi&last_name=Verdi&avatar=https://picsum.photos/seed/picsum/300/300",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users",
+						"1"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						},
+						{
+							"key": "email",
+							"value": "LuigiVerdi@gmail.com"
+						},
+						{
+							"key": "first_name",
+							"value": "Luigi"
+						},
+						{
+							"key": "last_name",
+							"value": "Verdi"
+						},
+						{
+							"key": "avatar",
+							"value": "https://picsum.photos/seed/picsum/300/300"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ES2-ReqRes [DELETE] CRUD",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "mariorossi@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "first_name",
+							"value": "Mario",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "Bluth",
+							"type": "text"
+						},
+						{
+							"key": "avatar",
+							"value": "https://picsum.photos/seed/picsum/200/300",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://reqres.in/api/users/1",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users",
+						"1"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "LuigiVerdi@gmail.com",
+							"disabled": true
+						},
+						{
+							"key": "first_name",
+							"value": "Luigi",
+							"disabled": true
+						},
+						{
+							"key": "last_name",
+							"value": "Verdi",
+							"disabled": true
+						},
+						{
+							"key": "avatar",
+							"value": "https://picsum.photos/seed/picsum/300/300",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
